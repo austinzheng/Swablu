@@ -9,4 +9,9 @@
   :ring {:handler swablu.core.handler/app}
   :profiles
   {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
-                        [ring-mock "0.1.5"]]}})
+                        [ring-mock "0.1.5"]
+                        [org.clojure/java.jdbc "0.3.6"]
+                        [postgresql "9.3-1102.jdbc41"]
+                        [clojurewerkz/scrypt "1.1.0"]
+                        ]
+                        }})
